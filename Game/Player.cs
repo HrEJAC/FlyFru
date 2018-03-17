@@ -26,7 +26,7 @@ namespace Game
 
         public void MoveV(){
             shape.Angle += shape.AngFreq;
-            var newY = shape.PosY + Sin(shape.Angle) * shape.Speed;
+            shape.PosY = (float) (shape.PosY + Sin(shape.Angle) * shape.Speed);
         }
     }
 }
