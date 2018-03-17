@@ -1,0 +1,11 @@
+/Users/BareMarcP/Documents/Uni stuff/Fritid/FlyFru/GameTests/bin/Debug/GameTests.dll
+/Users/BareMarcP/Documents/Uni stuff/Fritid/FlyFru/GameTests/bin/Debug/GameTests.pdb
+/Users/BareMarcP/Documents/Uni stuff/Fritid/FlyFru/GameTests/bin/Debug/Game.dll
+/Users/BareMarcP/Documents/Uni stuff/Fritid/FlyFru/GameTests/bin/Debug/nunit.framework.dll
+/Users/BareMarcP/Documents/Uni stuff/Fritid/FlyFru/GameTests/bin/Debug/Game.pdb
+/Users/BareMarcP/Documents/Uni stuff/Fritid/FlyFru/GameTests/bin/Debug/nunit.framework.pdb
+/Users/BareMarcP/Documents/Uni stuff/Fritid/FlyFru/GameTests/bin/Debug/nunit.framework.xml
+/Users/BareMarcP/Documents/Uni stuff/Fritid/FlyFru/GameTests/obj/Debug/GameTests.csprojResolveAssemblyReference.cache
+/Users/BareMarcP/Documents/Uni stuff/Fritid/FlyFru/GameTests/obj/Debug/GameTests.csproj.CoreCompileInputs.cache
+/Users/BareMarcP/Documents/Uni stuff/Fritid/FlyFru/GameTests/obj/Debug/GameTests.dll
+/Users/BareMarcP/Documents/Uni stuff/Fritid/FlyFru/GameTests/obj/Debug/GameTests.pdb
