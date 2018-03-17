@@ -18,13 +18,19 @@ namespace FlyFru
 
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
         {
-            // Override point for customization after application launch.
-            // If not required for your application you can safely delete this method
+            // create a new window instance based on the screen size
+            Window = new UIWindow(UIScreen.MainScreen.Bounds);
 
-            // Code to start the Xamarin Test Cloud Agent
-#if ENABLE_TEST_CLOUD
-			Xamarin.Calabash.Start();
-#endif
+            // If you have defined a root view controller, set it here:
+            // Window.RootViewController = myViewController;
+            var cvc = new SplashViewController();
+            var navController = new UINavigationController(cvc);
+
+            Window.RootViewController = navController;
+
+            // make the window visible
+            Window.MakeKeyAndVisible();
+
 
             return true;
         }

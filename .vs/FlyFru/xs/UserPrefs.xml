@@ -1,17 +1,21 @@
 ﻿<Properties StartupConfiguration="{A94177D2-186D-483A-B940-95C050CE2710}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="FlyFru/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Game/Obstacle.cs">
     <Files>
-      <File FileName="FlyFru/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="Game/Shape.cs" Line="1" Column="1" />
+      <File FileName="Game/Entity.cs" Line="1" Column="1" />
+      <File FileName="Game/Sequence.cs" Line="1" Column="1" />
+      <File FileName="Game/Map.cs" Line="1" Column="1" />
+      <File FileName="Game/Game.cs" Line="1" Column="1" />
+      <File FileName="Game/Player.cs" Line="1" Column="1" />
+      <File FileName="Game/Obstacle.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
-  <MonoDevelop.Ide.ItemProperties.FlyFru PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.685062AE-89B4-4A02-987D-DDEDC58C6CC7" FirstBuild="True">
-    <MonoDevelop.MacDev.AppleDevelopmentTeam />
-  </MonoDevelop.Ide.ItemProperties.FlyFru>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.FlyFru.UITests FirstBuild="True" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Game FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.IOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.685062AE-89B4-4A02-987D-DDEDC58C6CC7" FirstBuild="True" automaticSigning="False" />
 </Properties>
