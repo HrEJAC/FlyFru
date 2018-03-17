@@ -18,7 +18,7 @@ namespace Game
             var rand = new Random();
 
             switch (rand.Next(1,1)){
-                case 1:
+                default:
                     var seq = new SplitSequence(startX);
                     seq.CreateObstacles();
                     return seq;

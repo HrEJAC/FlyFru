@@ -16,14 +16,14 @@ namespace Game
         }
 
         public void CreateObstacle(
-            float relX, float width, float Y, float height, string img)
+            float relX, float obsY, float extendX, float extendY, string img)
         {
             Container.Add(new Obstacle(
-                            new Shape(PosX + relX, Y,
-                                      width, height), img));
+                            new Shape(PosX + relX, obsY,
+                                      extendX, extendY), img));
         }
 
-        public void CreateObstacles()
+        public virtual void CreateObstacles()
         {
             throw new NotImplementedException();
         }

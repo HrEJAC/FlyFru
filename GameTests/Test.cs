@@ -82,7 +82,7 @@ namespace GameTests
         [Test()]
         public void TestPlayer() {
             Player = new Shape(0.5f, 0.5f, 0.1f, 0.1f, 0.2f, 0.0f, 0.3f);
-            PlayerTest = new Player(Player, "Image");
+            PlayerTest = new Player(Player, "");
             PlayerTest.MoveV();
             Assert.AreEqual(PlayerTest.shape.Angle, 0.3f);
             Assert.GreaterOrEqual(0.56f, System.Math.Abs(PlayerTest.shape.PosY));
