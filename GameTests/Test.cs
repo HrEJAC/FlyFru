@@ -9,7 +9,8 @@ namespace GameTests
     {
         private Shape Player;
         private Shape Obstacle;
-
+        private Player PlayerTest;
+        // Testing Collision:
         [Test()]
         public void TestNoCollision()
         {
@@ -57,6 +58,34 @@ namespace GameTests
             Obstacle = new Shape(0.5f, 0.5f, 1.0f, 1.0f);
             Assert.IsFalse(Shape.Collision(Player, Obstacle));
         }
-
+        // Testing Player Functions:
+        [Test()]
+        public void TestPlayerPoints() {
+            Player = new Shape(0.5f, 0.5f, 0.1f, 0.1f, 0.0f, 0.0f, 0.3f);
+            PlayerTest = new Player(Player, "lort");
+            for (int i = 0; i < 5; i ++) {
+                PlayerTest.IncrementPoints();
+            }
+            Assert.AreEqual(PlayerTest.GetPoints(), 5);
+        }
+        //[Test()]
+        //public void TestPlayerPointsMaxInt()
+        //{
+        //    Player = new Shape(0.5f, 0.5f, 0.1f, 0.1f, 0.0f, 0.0f, 0.3f);
+        //    PlayerTest = new Player(Player, "lort");
+        //    for (int i = 0; i < Int32.MaxValue; i++)
+        //    {
+        //        PlayerTest.IncrementPoints();
+        //    }
+        //    Assert.AreEqual(PlayerTest.GetPoints(), (Int32.MaxValue));
+        //}
+        [Test()]
+        public void TestPlayer() {
+            Player = new Shape(0.5f, 0.5f, 0.1f, 0.1f, 0.2f, 0.0f, 0.3f);
+            PlayerTest = new Player(Player, "Image");
+            PlayerTest.MoveV();
+            Assert.AreEqual(PlayerTest.shape.Angle, 0.3f);
+            Assert.GreaterOrEqual(0.56f, System.Math.Abs(PlayerTest.shape.PosY));
+        }
     }
 }
