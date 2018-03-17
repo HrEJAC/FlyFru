@@ -5,7 +5,7 @@ namespace Game
 {
     public class Map
     {
-        List<Sequence> CurrentSeq;
+        public List<Sequence> CurrentSeq;
 
         public Map()
         {

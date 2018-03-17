@@ -13,6 +13,8 @@ namespace Game
         public float Angle;
         public float AngFreq;
 
+        public bool DirUp;
+
         public Shape(float posX, float posY, float extendX, float extendY)
         {
             PosX = posX;
@@ -31,6 +33,7 @@ namespace Game
             Speed = speed;
             Angle = angle;
             AngFreq = angFreq;
+            DirUp = true;
         }
 
         public static bool Collision (Shape player, Shape obstacle) {
