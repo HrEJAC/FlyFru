@@ -1,40 +1,22 @@
 ﻿using System;
-using System.Collections.Generic;
-
 namespace Game
 {
-    public class SplitSequence : ISequence
+    public class SplitSequence : Sequence
     {
-        public List<Obstacle> Container;
-        public float PosX;
-        public float length;
-
-        public SplitSequence(float startX)
+        public SplitSequence(float startX) : base(startX)
         {
-            PosX = startX;
-            Container = new List<Obstacle> { };
         }
 
-        public void CreateObstacle(
-            float relX, float width, float Y, float height, string img)
-        {
-            Container.Add(new Obstacle(
-                            new Shape(PosX + relX, Y - height,
-                                      width, height), img));
-        }
-
-        public void CreateObstacles()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Move(float step)
-        {
-            PosX -= step;
-            foreach (Obstacle obs in Container)
-            {
-                obs.shape.PosX -= step;
-            }
+        public override void CreateObstacles(){
+            length = 1.45f;
+            Container.Add(new Obstacle(new Shape(0.0f, 0.0f, 0.15f, 0.3f), ""));
+            Container.Add(new Obstacle(new Shape(0.0f, 0.7f, 0.15f, 0.3f), ""));
+            Container.Add(new Obstacle(new Shape(0.2f, 0.25f, 0.3f, 0.5f), ""));
+            Container.Add(new Obstacle(new Shape(0.8f, 0.0f, 0.15f, 0.3f), ""));
+            Container.Add(new Obstacle(new Shape(0.8f, 0.7f, 0.15f, 0.3f), ""));
+            Container.Add(new Obstacle(new Shape(1.0f, 0.25f, 0.3f, 0.5f), ""));
+            Container.Add(new Obstacle(new Shape(1.3f, 0.0f, 0.15f, 0.3f), ""));
+            Container.Add(new Obstacle(new Shape(1.3f, 0.7f, 0.15f, 0.3f), ""));
         }
     }
 }

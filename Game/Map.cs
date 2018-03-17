@@ -10,25 +10,18 @@ namespace Game
         public Map()
         {
             CurrentSeq = new List<Sequence> { };
-
+            CurrentSeq.Add(CreateRandSeq(1.0f));
+            CurrentSeq.Add(CreateRandSeq(1.0f+CurrentSeq[0].Length));
         }
 
-        private Sequence CreateRandSeq(){
+        private Sequence CreateRandSeq(float startX){
             var rand = new Random();
 
-            switch (rand.Next(5)){
+            switch (rand.Next(1,1)){
                 case 1:
-                    var seq = new aSequence();
-                    seq.
-                    return aSequence();
-                case 2:
-                    return aSequence();
-                case 3:
-                    return aSequence();
-                case 4:
-                    return aSequence();
-                case 5:
-                    return aSequence();
+                    var seq = new SplitSequence(startX);
+                    seq.CreateObstacles();
+                    return seq;
             }
         }
 
@@ -36,7 +29,11 @@ namespace Game
             foreach (Sequence seq in CurrentSeq){
                 seq.Move(step);
             }
-
+            if (CurrentSeq[0].Length + CurrentSeq[0].PosX <= 0.0f){
+                CurrentSeq.RemoveAt(0);
+                CurrentSeq.Add(
+                    CreateRandSeq(CurrentSeq[0].PosX + CurrentSeq[0].Length));
+            }
         }
     }
 }

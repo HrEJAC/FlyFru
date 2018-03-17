@@ -41,8 +41,8 @@
     <Compile Include="Game.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Obstacle.cs" />
+    <Compile Include="Sequence.cs" />
     <Compile Include="SplitSequence.cs" />
-    <Compile Include="ISequence.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
