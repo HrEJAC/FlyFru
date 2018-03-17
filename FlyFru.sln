@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOS", "FlyFru\IOS.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{DC159B12-744C-4C76-8F61-7B8DAFE81296}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameTests", "GameTests\GameTests.csproj", "{41B51DBE-82D3-41F5-A46C-A127972F70FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -39,5 +41,17 @@ Global
 		{DC159B12-744C-4C76-8F61-7B8DAFE81296}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC159B12-744C-4C76-8F61-7B8DAFE81296}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC159B12-744C-4C76-8F61-7B8DAFE81296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41B51DBE-82D3-41F5-A46C-A127972F70FD}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{41B51DBE-82D3-41F5-A46C-A127972F70FD}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{41B51DBE-82D3-41F5-A46C-A127972F70FD}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{41B51DBE-82D3-41F5-A46C-A127972F70FD}.Release|iPhone.Build.0 = Release|Any CPU
+		{41B51DBE-82D3-41F5-A46C-A127972F70FD}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{41B51DBE-82D3-41F5-A46C-A127972F70FD}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{41B51DBE-82D3-41F5-A46C-A127972F70FD}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{41B51DBE-82D3-41F5-A46C-A127972F70FD}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{41B51DBE-82D3-41F5-A46C-A127972F70FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B51DBE-82D3-41F5-A46C-A127972F70FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B51DBE-82D3-41F5-A46C-A127972F70FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B51DBE-82D3-41F5-A46C-A127972F70FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{A94177D2-186D-483A-B940-95C050CE2710}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Game/Obstacle.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Game/Shape.cs">
     <Files>
-      <File FileName="Game/Shape.cs" Line="1" Column="1" />
+      <File FileName="Game/Shape.cs" Line="23" Column="9" />
       <File FileName="Game/Entity.cs" Line="1" Column="1" />
       <File FileName="Game/Sequence.cs" Line="1" Column="1" />
       <File FileName="Game/Map.cs" Line="1" Column="1" />
       <File FileName="Game/Game.cs" Line="1" Column="1" />
-      <File FileName="Game/Player.cs" Line="1" Column="1" />
+      <File FileName="Game/Player.cs" Line="7" Column="9" />
       <File FileName="Game/Obstacle.cs" Line="1" Column="1" />
+      <File FileName="GameTests/Test.cs" Line="22" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -15,7 +16,8 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GameTests FirstBuild="True" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Game FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.IOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.685062AE-89B4-4A02-987D-DDEDC58C6CC7" FirstBuild="True" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.IOS PreferredExecutionTarget="MonoDevelop.Default" automaticSigning="False" />
 </Properties>
