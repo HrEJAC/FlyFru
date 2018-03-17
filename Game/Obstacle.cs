@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Game
 {
-    public class Obstacle
+    public class Obstacle : Entity
     {
-        public Obstacle()
+        public Obstacle(Shape shape, string img) : base(shape, img)
         {
         }
     }

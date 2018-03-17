@@ -1,10 +1,32 @@
 ﻿using System;
+using static System.Math;
+
 namespace Game
 {
-    public class Player
+    public class Player : Entity
     {
-        public Player()
+        private int points;
+
+        public Player(Shape shape, string img) : base(shape, img)
         {
+            points = 0;
+        }
+
+        public void IncrementPoints() {
+            points ++;
+        }
+
+        public int GetPoints(){
+            return points;
+        }
+
+        public void ManageSpeed(){
+            
+        }
+
+        public void MoveV(){
+            shape.Angle += shape.AngFreq;
+            var newY = shape.PosY + Sin(shape.Angle) * shape.Speed;
         }
     }
 }
